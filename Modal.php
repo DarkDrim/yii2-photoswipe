@@ -5,7 +5,7 @@
  * @copyright Copyright (c) 2017 Power Kernel
  */
 
-namespace powerkernel\photoswipe;
+namespace darkdrim\photoswipe;
 
 
 use yii\base\Widget;
@@ -13,7 +13,7 @@ use yii\base\Widget;
 
 /**
  * Modal Gallery
- * @package powerkernel\photoswipe
+ * @package darkdrim\photoswipe
  */
 class Modal extends Widget
 {

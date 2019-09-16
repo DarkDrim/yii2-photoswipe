@@ -5,14 +5,14 @@
  * @copyright Copyright (c) 2017 Power Kernel
  */
 
-namespace powerkernel\photoswipe;
+namespace darkdrim\photoswipe;
 
 
 use yii\web\AssetBundle;
 
 /**
  * Class PhotoswipeAsset
- * @package powerkernel\photoswipe
+ * @package darkdrim\photoswipe
  */
 class PhotoswipeAsset extends AssetBundle
 {
