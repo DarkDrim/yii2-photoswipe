@@ -8,19 +8,19 @@ Installation
 
 The preferred way to install this extension is through [composer](http://getcomposer.org/download/).
 
-Either run
-
 ```
-php composer.phar require --prefer-dist darkdrim/yii2-photoswipe "*"
+{
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/DarkDrim/yii2-photoswipe"
+        }
+    ],
+    "require": {
+        "darkdrim/yii2-photoswipe": "*"
+    }
+}
 ```
-
-or add
-
-```
-"darkdrim/yii2-photoswipe": "*"
-```
-
-to the require section of your `composer.json` file.
 
 
 Usage
@@ -48,7 +48,7 @@ Add Gallery
             'thumb' => 'https://farm6.staticflickr.com/5023/5578283926_822e5e5791_m.jpg',
         ],
     ],
-	'clientOptions' => ['history' => false,],
+    'clientOptions' => ['history' => false,],
 ])
 ?>
 ```
