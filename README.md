@@ -1,6 +1,7 @@
 Yii2 PhotoSwipe
 ===============
 PhotoSwipe extension for Yii2
+This fork fixes a bug with clentOptions https://github.com/powerkernel/yii2-photoswipe/pull/1
 
 Installation
 ------------
@@ -10,13 +11,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist powerkernel/yii2-photoswipe "*"
+php composer.phar require --prefer-dist darkdrim/yii2-photoswipe "*"
 ```
 
 or add
 
 ```
-"powerkernel/yii2-photoswipe": "*"
+"darkdrim/yii2-photoswipe": "*"
 ```
 
 to the require section of your `composer.json` file.
@@ -46,7 +47,8 @@ Add Gallery
             'size' => '1024x768',
             'thumb' => 'https://farm6.staticflickr.com/5023/5578283926_822e5e5791_m.jpg',
         ],
-    ]
+    ],
+	'clientOptions' => ['history' => false,],
 ])
 ?>
 ```
